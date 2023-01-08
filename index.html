@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@media-Q1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <input type="text" placeholder="Enter" id="input1" class="css">
+            <input type="text" placeholder="Enter" id="input2" class="css">
+        </div>
+        <p id="output"></p>
+        <div class="van">
+          
+            <button onclick="result1()" class="git">ADD</button>
+            <button onclick="result2()" class="git">SUB</button>
+            <button onclick="result3()" class="git">MUL</button>
+            <button onclick="result4()" class="git">DVD</button>
+            <button onclick="result5()" class="git">RMD</button>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function result1() {
+            let input1 = document.getElementById('input1').value
+            let input2 = document.getElementById('input2').value
+            input1 = parseInt(input1)
+            input2 = parseInt(input2)
+            let output = document.getElementById('output')
+            let sum = input1 + input2
+            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + sum
+        }
+        function result2() {
+            let input1 = document.getElementById('input1').value
+            let input2 = document.getElementById('input2').value
+            input1 = parseInt(input1)
+            input2 = parseInt(input2)
+            let output = document.getElementById('output')
+            let SUB = input1 - input2
+            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + SUB
+        }
+        function result3() {
+            let input1 = document.getElementById('input1').value
+            let input2 = document.getElementById('input2').value
+            input1 = parseInt(input1)
+            input2 = parseInt(input2)
+            let output = document.getElementById('output')
+            let MUL = input1 * input2
+            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + MUL
+        }
+        function result4() {
+            let input1 = document.getElementById('input1').value
+            let input2 = document.getElementById('input2').value
+            input1 = parseInt(input1)
+            input2 = parseInt(input2)
+            let output = document.getElementById('output')
+            let DVD = input1 / input2
+            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + DVD
+        }
+        function result5() {
+            let input1 = document.getElementById('input1').value
+            let input2 = document.getElementById('input2').value
+            input1 = parseInt(input1)
+            input2 = parseInt(input2)
+            let output = document.getElementById('output')
+            let RMD = input1 % input2
+            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + RMD
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* media-qwery start  */
+.container {
+    max-width: 1140px;
+    
+    margin: auto;
+
+}
+
+.git {
+    font-size: 15px;
+    color: deeppink;
+    border: 3px solid green;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 0px 1px;
+}
+#output{
+    height: 50px;
+    background-color: lightblue;
+    width: 249px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    color: green;
+    font-family: sans-serif;
+    margin-top: 21px;
+    font-weight: bold;
+}
+.css {
+    width: 120px;
+    height: 50px;
+    border: 1px solid red;
+    font-size: 30px;
+    text-align: center;
+    outline-color: red;
+    column-gap: 10px;
+    margin-top: 75px;
+}
+.van{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .container {
+        width: 100%;
+    }
+
+}
