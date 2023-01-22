@@ -10,72 +10,425 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="nav">
             <input type="text" placeholder="Enter" id="input1" class="css">
             <input type="text" placeholder="Enter" id="input2" class="css">
         </div>
         <p id="output"></p>
         <div class="van">
-          
+
             <button onclick="result1()" class="git">ADD</button>
             <button onclick="result2()" class="git">SUB</button>
             <button onclick="result3()" class="git">MUL</button>
             <button onclick="result4()" class="git">DVD</button>
             <button onclick="result5()" class="git">RMD</button>
         </div>
+    </div> -->
+
+
+    <!-- <div>
+<input type="text" id="value1">
+        <input type="text" id="value2">
+        <p id="fox"></p>
+        <button onclick="ok()">check</button>
+        
+    </div> -->
+    <!-- <input type="text" id="on-screen">
+    <button onclick="box()">check</button>
+    <p id="look"></p> -->
+    <!-- <div class="container">
+        <div class="parent">
+            <div class="left">
+                <input type="text" id="vowels" placeholder="Enter" class="ad">
+                <button onclick="find()" class="sd">TAP</button>
+                <p id="Check" class="ck"></p>
+            </div>
+            <div class="right">
+                <input type="text" id="java" placeholder="Enter" class="ad">
+                <button onclick="rusk()" class="sd">TAP</button>
+                <p id="sand" class="ck"></p>
+            </div>
+        </div>
+    </div> -->
+
+<!-- <input type="text" id="loc" placeholder="Enter" class="ad">
+<input type="text" id="lac" placeholder="Enter" class="ad">
+<input type="text" id="col" placeholder="Enter" class="ad">
+<button onclick="text()" class="sd">Touch</button>
+<h1 id="cow" class="ck" ></h1>
+
+
+<div class="vip">
+    <button onclick="decrement()" class="a">-</button>
+    <p class="a" id="valueDisplay">0</p>
+    <button onclick="increment()" class="a" id="disable">+</button>
+</div>
+ -->
+    
+    <!-- <input type="text" placeholder="Enter" id="logic1">
+    <input type="text" placeholder="Enter" id="logic2">
+     <button onclick="space1()">click</button>
+    <p id="info"></p> --> -->
+    <!-- <input type="text" placeholder="Enter" id="max1">
+    <input type="text" placeholder="Enter" id="max2">
+    <input type="text" placeholder="Enter" id="max3">
+    <button onclick="end ()">tap</button>
+    <p id="not"></p> -->
+    <!-- <input type="text" id="age" placeholder=" Enter">
+    <button onclick="stark()" id="kil">Touch</button>
+    <p id="result"></p>
+    <div class="flex">
+
     </div>
 
+    <input type="text" id="angle1" placeholder="Enter">
+    <input type="text" id="angle2" placeholder="Enter">
+    <input type="text" id="angle3" placeholder="Enter">
+    <p id="show"></p>
+    <button onclick="fight()" id="func">Click</button> -->
+<div class="container">
+<div class="vevry">
+<div class="data">
+    <input type="text" id="ui" class="just">
+    <input type="button" onclick="setInput(1)" value="1" id="in1" placeholder="1" class="web">
+    <input type="button" onclick="setInput(2)" value="2" id="in2" placeholder="2" class="web">
+    <input type="button" onclick="setInput(3)" value="3" id="in3" placeholder="3" class="web">
+    <input type="button" onclick="setInput('+')" value="+" id="in_+" placeholder="+" class="web">
+    <input type="button" onclick="setInput(4)" value="4" id="in4" placeholder="4" class="web">
+    <input type="button" onclick="setInput(5)" value="5" id="in5" placeholder="5" class="web">
+    <input type="button" onclick="setInput(6)" value="6" id="in6" placeholder="6" class="web">
+    <input type="button" onclick="setInput('-')" value="-" id="in_sub" placeholder="-" class="web">
+    <input type="button" onclick="setInput(7)" value="7" id="in7" placeholder="7" class="web">
+    <input type="button" onclick="setInput(8)" value="8" id="in8" placeholder="8" class="web">
+    <input type="button" onclick="setInput(9)" value="9" id="in9" placeholder="9" class="web">
+    <input type="button" onclick="setInput('*')" value="x" id="in_multi" placeholder="x" class="web">
+    <input type="button" onclick="setInput('.')" value="." class="web">
+    <input type="button" onclick="setInput(0)" value="0" id="in0" placeholder="0" class="web">
+    <input type="button" onclick="setInput('/')" value="/" id="in_dvd" placeholder="/" class="web">
+    <input type="button" onclick="setResult()" value="=" class="web">
+    <input type="button" onclick="setInput('%')" value="%" id="in_re" placeholder="%" class="web">
+    <input type="button" onclick="set_clr('c')" value="c" id="in_clr" placeholder="c" class="web">
+
+</div>
+</div>  
+</div>
 
 
 
     <script>
-        function result1() {
-            let input1 = document.getElementById('input1').value
-            let input2 = document.getElementById('input2').value
-            input1 = parseInt(input1)
-            input2 = parseInt(input2)
-            let output = document.getElementById('output')
-            let sum = input1 + input2
-            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + sum
-        }
-        function result2() {
-            let input1 = document.getElementById('input1').value
-            let input2 = document.getElementById('input2').value
-            input1 = parseInt(input1)
-            input2 = parseInt(input2)
-            let output = document.getElementById('output')
-            let SUB = input1 - input2
-            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + SUB
-        }
-        function result3() {
-            let input1 = document.getElementById('input1').value
-            let input2 = document.getElementById('input2').value
-            input1 = parseInt(input1)
-            input2 = parseInt(input2)
-            let output = document.getElementById('output')
-            let MUL = input1 * input2
-            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + MUL
-        }
-        function result4() {
-            let input1 = document.getElementById('input1').value
-            let input2 = document.getElementById('input2').value
-            input1 = parseInt(input1)
-            input2 = parseInt(input2)
-            let output = document.getElementById('output')
-            let DVD = input1 / input2
-            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + DVD
-        }
-        function result5() {
-            let input1 = document.getElementById('input1').value
-            let input2 = document.getElementById('input2').value
-            input1 = parseInt(input1)
-            input2 = parseInt(input2)
-            let output = document.getElementById('output')
-            let RMD = input1 % input2
-            output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + RMD
-        }
 
+  function setInput(val){
+    let input = document.getElementById('ui').value;
+        input = input + val;
+        document.getElementById('ui').value = input;
+
+  }
+
+  function setResult(){
+    let input = document.getElementById('ui').value;
+    let result = eval(input)
+    document.getElementById('ui').value = result
+    console.log(result)
+
+  }
+  function set_clr (){
+    document.getElementById('ui').value = ''
+  }
+
+
+
+
+
+
+
+// function fight(){
+//     let q1=document.getElementById('angle1').value
+//     let q2=document.getElementById('angle2').value
+//     let q3=document.getElementById('angle3').value
+    
+//     q1=parseInt(q1)
+//     q2=parseInt(q2)
+//     q3=parseInt(q3)
+
+//     if(q1==q2&&q1==q3){
+//      document.getElementById('show').innerText= " all side is equal"
+//     }
+//     else if(q1==q2 || q1 == q3 || q2 == q3 ){
+//         document.getElementById('show').innerText= " two side is equal"
+//     }
+  
+ 
+//     else {
+//         document.getElementById('show').innerText= " side is not equal"
+//     }
+// }
+
+
+
+// function stark(){
+// let a1 = document.getElementById('age').value
+// a1 = parseInt(a1)
+
+//  if (a1== 0){
+// document.getElementById('result').innerText = a1 + " Invalid age "
+//  }
+ 
+//  else if (a1<= 0){
+// document.getElementById('result').innerText = a1 + " ye ho nhi sakta "
+//  }
+ 
+
+//  else if(a1<=10){
+// document.getElementById('result').innerText = a1 + " CHILD "
+
+//  }
+//  else if(a1<=17){
+// document.getElementById('result').innerText = a1 + " Teenagers "
+
+//  }
+//  else if(a1<=25){
+// document.getElementById('result').innerText = a1 + " Young "
+
+//  }
+//  else if(a1<=59){
+// document.getElementById('result').innerText = a1 + " Matuore "
+
+//  }
+//  else{
+// document.getElementById('result').innerText = a1 + " Old "
+
+//  }
+
+// }
+
+
+        // function end() {
+        //     let a = document.getElementById('max1').value
+        //     let b = document.getElementById('max2').value
+        //     let c = document.getElementById('max3').value
+        //     a = parseInt(a)
+        //     b = parseInt(b)
+        //     c = parseInt(c)
+        //     If(a > b){
+        //         if (a > c) {
+        //             document.getElementById('not').innerText = a + " is greater"
+        //         }
+        //         else(){
+        //             document.getElementById('not').innerText = a + " is greater"
+
+        //         }
+        //     }
+         
+        //     else {
+        //         document.getElementById('not').innerText = c + " is greater"
+
+        //     }
+
+        // }
+
+
+
+
+        // function space1() {
+        //     let x = document.getElementById("logic1").value
+        //     x = parseInt(x)
+        //     if (x % 2 == 0) {
+
+        //         if (x % 4 == 0) {
+        //             document.getElementById('info').innerText = x + " is Even and its divisible by 4"
+        //         }
+
+        //         else {
+        //             document.getElementById('info').innerText = x + " is Even and its not divisible by 4"
+        //         }
+        //     }
+
+
+        //     else {
+
+        //         if (x % 3 == 0) {
+        //             document.getElementById('info').innerText = x + " is odd and its divisible by 3"
+        //         }
+
+        //         else {
+
+        //             document.getElementById('info').innerText = x + " is odd and its not divisible by 3"
+        //         }
+        //     }
+
+        // }
+
+// let value = 0
+// let valueDisplay= document.getElementById("valueDisplay")
+// function increment(){
+//     value=value+1;
+//     document.getElementById('valueDisplay').innerText=value;
+// }
+// function decrement(){
+//     value=value-1;
+//     document.getElementById('valueDisplay').innerText=value;
+
+// }
+           
+
+
+
+// function text() {
+//                let a =document.getElementById('loc').value
+//                let b =document.getElementById('lac').value
+//                let c =document.getElementById('col').value
+//                 a=parseInt(a)
+//                 b=parseInt(b)
+//                 c=parseInt(c)
+//            if (a > b && a > c){
+//         document.getElementById('cow').innerText = a+ " is greater "
+//        }
+//           else if(b > a && b > c){
+//         document.getElementById('cow').innerText = b+ " is greater "
+//        }
+//           else if(b == a && b == c){
+//         document.getElementById('cow').innerText = b+ " all are equal"
+//        }
+//           else if(b > a && b == c){
+//         document.getElementById('cow').innerText = a+ " is small both"
+//        }
+//           else if(a > b && a == c){
+//         document.getElementById('cow').innerText = b+ " is small both"
+//        }
+//           else if(b > c && b == a){
+//         document.getElementById('cow').innerText = c+ " is small both"
+//        }
+       
+//           else {
+//         document.getElementById('cow').innerText = c+ " is greater "
+//        }
+
+//      }
+        // function find() {
+        //     let inputData = document.getElementById('vowels').value
+
+        //     if (inputData == "a" || inputData == "A" || inputData == "e" || inputData == "E" || inputData == "i" || inputData == "I" || inputData == "o" || inputData == "O" || inputData == "u" || inputData == "U") {
+         
+        //         document.getElementById('Check').innerText = inputData + "- is Vovel "
+        //     }
+        //     else {
+            
+        //         document.getElementById('Check').innerText = inputData + "- is consonent "
+        //     }
+        // }
+
+
+
+
+        // function rusk() {
+        //     let bag = document.getElementById('java').value
+        //     bag = parseInt(bag)
+            
+        //     if (bag > 0) {
+               
+        //         document.getElementById('sand').innerText = bag + " is +Ve"
+        //     }
+        //     else if (bag < 0){
+              
+        //         document.getElementById('sand').innerText = bag + " is  -Ve" 
+        //     }
+        //     else if (bag === 0) {
+        //         document.getElementById('sand').innerText = bag + " is equal to 0" 
+        //     }
+        // }
+
+
+
+        // function box() {
+        //     let k = document.getElementById('on-screen').value
+        //     k = parseInt(k)
+        //     if (k % 2 == 0) {
+        //         console.log(k + 'is even')
+        //         document.getElementById('look').innerText = k + " is even"
+        //     }
+        //     else {
+        //         console.log(k + 'is odd')
+        //         document.getElementById('look').innerText = k + " is odd"
+        //     }
+
+
+        // }
+
+
+        // function ok() {
+        //     let a = document.getElementById('value1').value
+        //     let b = document.getElementById('value2').value
+        //     a = parseInt(a)
+        //     b = parseInt(b)
+
+        //     if (a > b) {
+        //         console.log(a + 'is greater')
+        //         document.getElementById('fox').innerText = a + "is greater"
+        //     }
+        //     else {
+        //         console.log(b + 'is greater')
+        //         document.getElementById('fox').innerText = b + "is greater"
+        //     }
+
+        // }
+
+
+
+
+        // function result1() {
+        //     let input1 = document.getElementById('input1').value
+        //     let input2 = document.getElementById('input2').value
+        //     input1 = parseInt(input1)
+        //     input2 = parseInt(input2)
+        //     let output = document.getElementById('output')
+        //     let sum = input1 + input2
+        //     output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + sum
+        // }
+        // function result2() {
+        //     let input1 = document.getElementById('input1').value
+        //     let input2 = document.getElementById('input2').value
+        //     input1 = parseInt(input1)
+        //     input2 = parseInt(input2)
+        //     let output = document.getElementById('output')
+        //     let SUB = input1 - input2
+        //     output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + SUB
+        // }
+        // function result3() {
+        //     let input1 = document.getElementById('input1').value
+        //     let input2 = document.getElementById('input2').value
+        //     input1 = parseInt(input1)
+        //     input2 = parseInt(input2)
+        //     let output = document.getElementById('output')
+        //     let MUL = input1 * input2
+        //     output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + MUL
+        // }
+        // function result4() {
+        //     let input1 = document.getElementById('input1').value
+        //     let input2 = document.getElementById('input2').value
+        //     input1 = parseInt(input1)
+        //     input2 = parseInt(input2)
+        //     let output = document.getElementById('output')
+        //     let DVD = input1 / input2
+        //     output.innerText = ' Sum of ' + input1 + ' and ' + input2 + ' = ' + DVD
+        // }
+        // function result5() {
+        //     let input1 = document.getElementById('input1').value
+        //     let input2 = document.getElementById('input2').value
+        //     input1 = parseInt(input1)
+        //     input2 = parseInt(input2)
+        //     let output = document.getElementById('output')
+        //     let RMD = input1 % input2
+        //     output.innerText = ' qoutent  of ' + input1 + ' and ' + input2 + ' = ' + RMD
+        // }
+        // let a =
+        //     let b = 0
+        // if (a > b) {
+        //     console.log(a + 'is greater')
+        // }
+        // else {
+        //     console.log(b + 'is greater')
+        // }
     </script>
 </body>
 

@@ -2,14 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    background-color: rgb(7, 7, 7);
 }
 
 
 /* media-qwery start  */
 .container {
     max-width: 1140px;
-    
     margin: auto;
 
 }
@@ -22,7 +21,8 @@
     padding: 5px 5px;
     margin: 0px 1px;
 }
-#output{
+
+#output {
     height: 50px;
     background-color: lightblue;
     width: 249px;
@@ -35,6 +35,7 @@
     margin-top: 21px;
     font-weight: bold;
 }
+
 .css {
     width: 120px;
     height: 50px;
@@ -45,18 +46,276 @@
     column-gap: 10px;
     margin-top: 75px;
 }
-.van{
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+}
+
+.sd {
+    border: 3px solid deepskyblue;
+    padding: 5px 11px;
+    border-radius: 5px;
+    height: 48px;
+    margin-bottom: 4px;
+    color: red;
+    margin-left: 6px;
+    font-weight: 900;
+    font-size: 22px;
+    background: aquamarine;
+}
+
+.ck {
+    border-radius: 5px;
+    border: 3px solid green;
+    margin-top: 12px;
+    padding-left: 10px;
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: blue;
+    height: 45px;
+    width: 50%;
+    font-weight: 900;
+}
+
+.vip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+
+}
+
+.a {
+    font-size: 50px;
+    padding: 0px 20px;
+}
+
+.ad {
+    border-radius: 5px;
+    border: 2px solid red;
+    outline: none;
+    color: blue;
+    width: 93px;
+    height: 35px;
+    font-size: 30px;
+    padding: 22px 0px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.van {
     margin: auto;
     display: flex;
     justify-content: center;
     margin-top: 17px;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 10px;
 }
+
+#ok {
+    display: block;
+}
+
+#logic1 {
+    padding: 20px;
+    color: red;
+    background-color: pink;
+}
+
+#info {
+    height: 20px;
+    width: 400px;
+    background-color: rgb(74, 89, 74);
+    color: rgb(252, 5, 5);
+    margin-bottom: 400px;
+}
+
+#age {
+    /* background-color: rgb(235, 110, 110); */
+    color: rgb(70, 3, 252);
+    border: 1px solid red;
+    height: 40px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+
+}
+
+#kil {
+    background-color: blue;
+    color: whitesmoke;
+    height: 33px;
+    position: relative;
+    left: 61%;
+    top: -32px;
+    width: 100px;
+}
+
+#result {
+    color: green;
+    height: 30px;
+    font-weight: 900;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 21%;
+}
+
+
+.flex {
+    margin-top: 300px;
+    margin-bottom: 400px;
+}
+
+/* #angle1{
+    margin: auto;
+    display: flex;
+    border: 2px solid red;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+#angle2{
+    margin: auto;
+    display: flex;
+    border: 2px solid red;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+#angle3{
+    margin: auto;
+    display: flex;
+    border: 2px solid red;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+#func{
+    font-size: 24px;
+    width: 84px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#show{
+    font-size: 24px;
+    width: 84px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+} */
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    background: transparent;
+}
+
+.just {
+    width: 280px;
+    outline: none;
+    outline-color: red;
+    border: 1px solid red;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    height: 48px;
+    text-align: right;
+    padding-right: 25px;
+    font-weight: 900;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+
+}
+
+.vevry {
+    border: 1px solid red;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 477px;
+    border-radius: 10px;
+    background-image: linear-gradient(aqua,violet,red,yellow,green);
+}
+
+.web {
+    font-size: 20px;
+    padding: 20px 20px;
+    background: rgb(164, 234, 234);
+    color: blue;
+    width: 65px;
+    outline: none;
+    border: 2px solid rgb(149, 255, 0);
+    border-radius: 11px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.triangle {
+    border-bottom: 192px solid whitesmoke;
+    border-left: 140px solid aqua;
+    border-right: 118px solid aqua;
+}
+.yt{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.dot{
+    border: 300px solid red;
+    height: 1px;
+    width: 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+.dot::after{
+    width: 999px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    /* left: 0; */
+    height: 402px;
+    background-color: rgb(7, 7, 7);
+}
+
 @media screen and (min-width:320px) and (max-width:480px) {
     .container {
         width: 100%;
